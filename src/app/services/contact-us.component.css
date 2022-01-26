@@ -1,0 +1,7 @@
+input.ng-invaled.ng-touched, textarea.ng-invalid.ng-touched{
+bored: 1px solid red;
+}
+
+span.help-block{
+color: red;
+}

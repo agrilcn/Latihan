@@ -1,0 +1,20 @@
+<el *ngFor="let ld of pesan">
+  <li>{{ld['field']} - {{ld{'defaultMessage']}}</li>
+  </ul>
+  </hr>
+  <form [formGroup]="formedit" class ="form-control" (submit)="simpan()">
+<div class="form-group">
+    <label >Nama</label>
+    <input type="text" class="form-control" formControlName="nama"
+    placeholder="Enter nama">
+        </div>
+    <div class="from-group">
+      <label >Deskripsi</label>
+      <input type="text" class="form-control" formControlName="deskripsi"
+             placeholder="Enter deskripsi">
+    </div>
+    <button type="submit" class="btn btn-primary"   >Submit</button
+    <body>
+
+</body>
+</html>
